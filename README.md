@@ -1,5 +1,7 @@
 # ⁉️ Outlandish Request-as-a-Service
 
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=username/repository@github)](https://gitads.dev/v1/ad-track?source=username/repository@github)
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/richard-sparq/outlandish-request-as-a-service/main/assets/imgs/outlandish-request-as-a-service.png" alt="Outlandish-Request-as-a-Service Banner" width="70%"/>
 </p>
