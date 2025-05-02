@@ -1,7 +1,7 @@
-# ❌ No-as-a-Service
+# ⁉️ Outlandish Request-as-a-Service
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rguinn-sparq/outlandish-request-as-a-service/main/assets/imgs/outlandish-request-as-a-service.png" width="1024" alt="Outlandish-Request-as-a-Service Banner" width="70%"/>
+  <img src="https://raw.githubusercontent.com/richard-sparq/outlandish-request-as-a-service/main/assets/imgs/outlandish-request-as-a-service.png" alt="Outlandish-Request-as-a-Service Banner" width="70%"/>
 </p>
 
 
