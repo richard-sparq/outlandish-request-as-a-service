@@ -1,8 +1,5 @@
 # ⁉️ Outlandish Request-as-a-Service
 
-## GitAds Sponsored
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=richard-sparq/outlandish-request-as-a-service@github)](https://gitads.dev/v1/ad-track?source=richard-sparq/outlandish-request-as-a-service@github)
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/richard-sparq/outlandish-request-as-a-service/main/assets/imgs/outlandish-request-as-a-service.png" alt="Outlandish-Request-as-a-Service Banner" width="70%"/>
 </p>
@@ -18,6 +15,9 @@ This tiny API now returns random, absurd, and often hilarious outlandish request
     <img src="https://gitads.dev/assets/images/sponsor/camos/camo-3.png" alt="Sponsored by GitAds" />
   </a>
 </p>
+
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=richard-sparq/outlandish-request-as-a-service@github)](https://gitads.dev/v1/ad-track?source=richard-sparq/outlandish-request-as-a-service@github)
 
 <p align="center">
   This project is <strong>sponsored by <a href="https://docs.gitads.dev/docs/getting-started/publishers">GitAds</a></strong>.<br>
