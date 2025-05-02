@@ -1,14 +1,14 @@
 # ❌ No-as-a-Service
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hotheadhacker/no-as-a-service/main/assets/imgs/naas-with-no-logo-bunny.png" width="800" alt="No-as-a-Service Banner" width="70%"/>
+  <img src="https://raw.githubusercontent.com/rguinn-sparq/outlandish-request-as-a-service/main/assets/imgs/outlandish-request-as-a-service.png" width="1024" alt="Outlandish-Request-as-a-Service Banner" width="70%"/>
 </p>
 
 
-Ever needed a graceful way to say “no”?  
-This tiny API returns random, generic, creative, and sometimes hilarious rejection reasons — perfectly suited for any scenario: personal, professional, student life, dev life, or just because.
+Ever needed a truly outlandish request to lighten the mood or poke fun at project demands?
+This tiny API now returns random, absurd, and often hilarious outlandish requests — perfect for team chats, developer banter, or whenever you need a reminder that some requests are just a bit much.
 
-Built for humans, excuses, and humor.
+Built for humans, humour, and the joy of the ridiculous.
 
 <!-- GitAds Sponsorship Badge -->
 <p align="center">
@@ -28,7 +28,7 @@ Built for humans, excuses, and humor.
 
 **Base URL**
 ```
-https://naas.isalman.dev/no
+http://localhost:3000/outlandish_request
 ```
 
 **Method:** `GET`  
@@ -36,17 +36,17 @@ https://naas.isalman.dev/no
 
 ### 🔄 Example Request
 ```http
-GET /no
+GET /outlandish_request
 ```
 
 ### ✅ Example Response
 ```json
 {
-  "reason": "This feels like something Future Me would yell at Present Me for agreeing to."
+  "request": "Can you just stick a web UI on the front of this before the sprint demo tomorrow?"
 }
 ```
 
-Use it in apps, bots, landing pages, Slack integrations, rejection letters, or wherever you need a polite (or witty) no.
+Use it in apps, bots, landing pages, Slack integrations, or wherever you want to amuse (or gently troll) your team with an outlandish request.
 
 ---
 
@@ -56,8 +56,8 @@ Want to run it yourself? It’s lightweight and simple.
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/hotheadhacker/no-as-a-service.git
-cd no-as-a-service
+git clone https://github.com/rguinn-sparq/outlandish-request-as-a-service.git
+cd outlandish-request-as-a-service
 ```
 
 ### 2. Install dependencies
@@ -85,9 +85,9 @@ PORT=5000 npm start
 ## 📁 Project Structure
 
 ```
-no-as-service/
-├── index.js            # Express API
-├── reasons.json        # 1000+ universal rejection reasons
+outlandish-request-as-a-service/
+├── index.js                  # Express API
+├── outlandish_requests.json  # Outlandish requests data
 ├── package.json
 └── README.md
 ```
@@ -100,9 +100,9 @@ For reference, here’s the package config:
 
 ```json
 {
-  "name": "no-as-service",
+  "name": "outlandish-request-as-a-service",
   "version": "1.0.0",
-  "description": "A lightweight API that returns random rejection or no reasons.",
+  "description": "A lightweight API that returns random outlandish requests.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -121,6 +121,7 @@ For reference, here’s the package config:
 ## 👤 Author
 
 Created with creative stubbornness by [hotheadhacker](https://github.com/hotheadhacker)
+... and modified by [rguinn-sparq](https://github.com/rguinn-sparq)
 
 ---
 

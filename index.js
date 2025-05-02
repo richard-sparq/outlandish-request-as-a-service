@@ -6,8 +6,8 @@ const app = express();
 app.set('trust proxy', true);
 const PORT = process.env.PORT || 3000;
 
-// Load reasons from JSON
-const reasons = JSON.parse(fs.readFileSync('./reasons.json', 'utf-8'));
+// Load outlandish requests from JSON
+const outlandishRequests = JSON.parse(fs.readFileSync('./outlandish_requests.json', 'utf-8'));
 
 // Rate limiter: 120 requests per minute per IP
 const limiter = rateLimit({
@@ -21,13 +21,13 @@ const limiter = rateLimit({
 
 app.use(limiter);
 
-// Random rejection reason endpoint
-app.get('/no', (req, res) => {
-  const reason = reasons[Math.floor(Math.random() * reasons.length)];
-  res.json({ reason });
+// Random outlandish request endpoint
+app.get('/outlandish_request', (req, res) => {
+  const request = outlandishRequests[Math.floor(Math.random() * outlandishRequests.length)];
+  res.json({ request });
 });
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`No-as-a-Service is running on port ${PORT}`);
+  console.log(`Outlandish Request-as-a-Service is running on port ${PORT}`);
 });
