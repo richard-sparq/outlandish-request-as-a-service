@@ -10,7 +10,7 @@ This tiny API now returns random, absurd, and often hilarious outlandish request
 
 Built for humans, humour, and the joy of the ridiculous.
 
-<!-- GitAds Sponsorship Badge -->
+<!-- GitAds-Verify: QTJORG4C54SQYWQSA8A4A2AZAJFRED6D -->
 <p align="center">
   <a href="https://docs.gitads.dev/">
     <img src="https://gitads.dev/assets/images/sponsor/camos/camo-3.png" alt="Sponsored by GitAds" />
